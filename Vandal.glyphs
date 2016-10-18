@@ -7,6 +7,8 @@ name = DevaIMatras;
 }
 );
 date = "2016-08-05 22:30:03 +0000";
+designer = "Zuzanna Rogatty";
+designerURL = "http://rogatty.com";
 familyName = Vandal;
 featurePrefixes = (
 {
@@ -18,7 +20,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature sups;\012feature salt;\012feature ss01;\012feature calt;\012feature ss02;\012";
+code = "feature sups;\012feature salt;\012feature ss01;\012feature calt;\012";
 name = aalt;
 },
 {
@@ -28,27 +30,22 @@ name = sups;
 },
 {
 automatic = 1;
-code = "sub g g by g_g.liga;\012sub t t by t_t.liga;\012sub two four H by two_four_H.liga;\012";
+code = "sub g g by g_g.liga;\012sub t t by t_t.liga;\012";
 name = liga;
 },
 {
 automatic = 1;
-code = "sub a by a.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub t by t.ss01;\012sub two by two.ss01;\012";
+code = "sub g by g.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub two by two.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub a by a.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub t by t.ss01;\012sub two by two.ss01;\012";
+code = "sub g by g.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub two by two.ss01;\012";
 name = ss01;
 },
 {
 code = "sub g' z by g.ss01;\012sub g' y by g.ss01;\012sub space j' by j.ss01;\012sub space i' by i.ss01;";
 name = calt;
-},
-{
-automatic = 1;
-code = "sub f by f.ss02;\012";
-name = ss02;
 }
 );
 fontMaster = (
